@@ -44,7 +44,7 @@ class marks extends student {
 
     void total() {
         int total = java_language + networks + web + maths + unix;
-        float percentage = total / 5;
+        float percentage = ((total * 100)/500);
         System.out.println("\nMarks obtained in each subject:" +"\n java_language =" + java_language +"\n networks ="+ networks +"\n web ="+ web +"\n maths ="+ maths +"\n unix ="+ unix);
         System.out.println("\ntotal Number is :" + total);
         System.out.println("\nPercentage is :" + percentage);
